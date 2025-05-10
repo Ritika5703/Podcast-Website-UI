@@ -48,7 +48,6 @@ namespace Podcast_Website
                             // Continue mapping other fields from your database to the Podcast object
                             Duration = Convert.ToInt32(reader["Duration"]),
                             EpisodeNumber = Convert.ToInt32(reader["EpisodeNumber"]),
-                            // Add other fields as necessary
                         };
 
                         podcasts.Add(podcast);
